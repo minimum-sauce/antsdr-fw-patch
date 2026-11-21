@@ -1,18 +1,18 @@
 echo "Reset git v0.39 "
 
 
-cd plutosdr-fw
-git reset --hard 9e90bce43f849882cd43c20a08effca132790fb3
-git clean -xf
-git clean -df
-cd ..
+# cd plutosdr-fw
+# git reset --hard 9e90bce43f849882cd43c20a08effca132790fb3
+# git clean -xf
+# git clean -df
+# cd ..
 
-cd plutosdr-fw/hdl
-git reset --hard 065c8f186ef87ff049d279ed5859ee8d97d91808
-git clean -xf
-git clean -df
-rm ./library/axi_vcxo_ctrl/ -rf
-cd ../..
+# cd plutosdr-fw/hdl
+# git reset --hard 065c8f186ef87ff049d279ed5859ee8d97d91808
+# git clean -xf
+# git clean -df
+# rm ./library/axi_vcxo_ctrl/ -rf
+# cd ../..
 
 cd plutosdr-fw/linux
 git reset --hard f3da30df60047dc5a0b8fa8c640be774e0f784d9
